@@ -1,0 +1,1 @@
+inflection_jinja
