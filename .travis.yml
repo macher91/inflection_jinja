@@ -1,0 +1,19 @@
+language: python
+python:
+- 3.6
+- 3.5
+- 3.4
+install:
+- pip install -U tox-travis
+- pip install -r requirements.txt
+script: tox
+deploy:
+  provider: pypi
+  distributions: sdist bdist_wheel
+  user: macher91
+  password:
+    secure: OYIblb8JHcqeWaJMJMlnxIBn0ZHd504dxYmY1euRbKKuMrgLTMoU8e6JotMBBKqmiLtDT0JM87p3eQADGqV/FseQy7z2NF+JhVz8iJx6GmdCFIUqAW9fz7zc4uynkRCDMJrpOypDzAT0yHhsmFDB8unPhsQWis2CoSjp/f0C64g8b36Dplg3bILzh1YZciLMDn5eeAq3mvFOOL2KcNlmArU3+XksZVqdF1yTNvDelyD/LbK2rKnn4Dzw58d91gSvnmKUVKJTvkTocT87Xj6mYhIVSmuzBRDhirDorOwyiJG6sGnAG6wwnUgQcAVvHqMddzwmkTaawcGwec7IECzg0AwHVO9++uaFRLMtrlGQrIaLY2QezYLDbNH72GT5m7xPdFNwAFkUNXzDSXlVYUiIZwpdxG7fSYb3qSFSrW5Ff5DEV7ddogkdRpCT9gDsBgefHG7DBC2OlrHngR6GY3/H1FXrfGI0Hn1cciAezg82ddWz8x/24eZBPQsYp8XzoQBl6aMD5CxyxGjKwRoUiTZoO0RUAmDD9FjSvvdnktB/upWF+yapgawxPAL/K9lOY/MNl7QZFfNTkyHlRn79zsPw7cj7OhHKQlA5wSji5YQvg4HEzFlhWfAQz4XfWMre6x+nZZ1aVHkSkLk40tUvPGR1i9uKjrxh08AboE7WOevM8zM=
+  on:
+    tags: true
+    repo: macher91/inflection_jinja
+    python: 3.6
