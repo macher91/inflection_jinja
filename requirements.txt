@@ -1,2 +1,4 @@
-jinja2==2.10
+-i https://pypi.org/simple
 inflection==0.3.1
+jinja2==2.10.1
+markupsafe==1.1.1

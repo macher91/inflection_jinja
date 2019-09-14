@@ -2,24 +2,25 @@
 
 """Main module."""
 
-
-from jinja2.ext import Extension
 from inflection import *
+from jinja2.ext import Extension
 
 
 class InflectionExtension(Extension):
-
     def __init__(self, environment):
         super(InflectionExtension, self).__init__(environment)
-        environment.filters['camelize'] = camelize
-        environment.filters['dasherize'] = dasherize
-        environment.filters['humanize'] = humanize
-        environment.filters['ordinal'] = ordinal
-        environment.filters['ordinalize'] = ordinalize
-        environment.filters['parameterize'] = parameterize
-        environment.filters['pluralize'] = pluralize
-        environment.filters['singularize'] = singularize
-        environment.filters['tableize'] = tableize
-        environment.filters['titleize'] = titleize
-        environment.filters['transliterate'] = transliterate
-        environment.filters['underscore'] = underscore
+        inflection_filters = dict(
+            camelize=camelize,
+            dasherize=dasherize,
+            humanize=humanize,
+            ordinal=ordinal,
+            ordinalize=ordinalize,
+            parameterize=parameterize,
+            pluralize=pluralize,
+            singularize=singularize,
+            tableize=tableize,
+            titleize=titleize,
+            transliterate=transliterate,
+            underscore=underscore,
+            )
+        environment.filters.update(inflection_filters)
