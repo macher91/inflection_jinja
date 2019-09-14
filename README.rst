@@ -16,7 +16,7 @@ inflection-jinja
 
 
 
-Jinja extension wrapping infection package.
+Jinja extension wrapping inflection package.
 
 
 * Free software: BSD license
