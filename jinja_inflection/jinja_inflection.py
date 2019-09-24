@@ -20,3 +20,5 @@ class InflectionExtension(Extension):
             underscore=underscore,
             )
         environment.filters.update(inflection_filters)
+
+inflection = InflectionExtension

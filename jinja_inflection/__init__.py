@@ -1,5 +1,3 @@
-__author__ = """Mateusz Mejsner"""
-__email__ = 'mateusz.mejsner@gmail.com'
-__version__ = '0.2.0'
+from jinja_inflection.jinja_inflection import InflectionExtension, inflection
 
-__all__ = ['InflectionExtension']
+__all__ = ['InflectionExtension', 'inflection']
