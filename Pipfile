@@ -12,6 +12,7 @@ coverage = "*"
 twine = "*"
 Sphinx = "*"
 pytest = "*"
+pylint = "*"
 
 [packages]
 inflection = "*"
