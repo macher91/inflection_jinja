@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `inflection_jinja` package."""
+"""Tests for `jinja_inflection` package."""
 
 
 import unittest
@@ -9,16 +9,16 @@ import unittest
 from jinja2 import Environment
 from inflection import *
 
-from inflection_jinja import inflection_jinja
+from jinja_inflection import jinja_inflection
 
 
 class TestInflectionJinjaTestCase(unittest.TestCase):
-    """Tests for `inflection_jinja` package."""
+    """Tests for `jinja_inflection` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
 
-        self.env = Environment(extensions=[inflection_jinja.InflectionExtension])
+        self.env = Environment(extensions=[jinja_inflection.InflectionExtension])
 
     def tearDown(self):
         """Tear down test fixtures, if any."""

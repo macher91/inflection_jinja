@@ -12,7 +12,7 @@ To install inflection-jinja, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install inflection_jinja
+    $ pip install jinja_inflection
 
 This is the preferred method to install inflection-jinja, as it will always install the most recent stable release.
 
@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/macher91/inflection_jinja
+    $ git clone git://github.com/macher91/jinja_inflection
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/macher91/inflection_jinja/tarball/master
+    $ curl  -OL https://github.com/macher91/jinja_inflection/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/macher91/inflection_jinja
-.. _tarball: https://github.com/macher91/inflection_jinja/tarball/master
+.. _Github repo: https://github.com/macher91/jinja_inflection
+.. _tarball: https://github.com/macher91/jinja_inflection/tarball/master

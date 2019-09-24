@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = inflection_jinja
+SPHINXPROJ    = jinja_inflection
 SOURCEDIR     = .
 BUILDDIR      = _build
 
