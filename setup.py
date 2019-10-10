@@ -1,4 +1,5 @@
-from setuptools import find_packages, setup
+from setuptools import find_packages
+from setuptools import setup
 
 with open('README.rst') as readme_file:
     readme = readme_file.read()
@@ -14,6 +15,8 @@ requirements = [
 setup_requirements = []
 
 test_requirements = []
+
+packages = find_packages()
 
 setup(
     author="Mateusz Mejsner",
@@ -34,9 +37,9 @@ setup(
     license="BSD license",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
-    keywords='jinja_inflection',
+    keywords='jinja inflection',
     name='jinja_inflection',
-    packages=['jinja_inflection'],
+    packages=packages,
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
