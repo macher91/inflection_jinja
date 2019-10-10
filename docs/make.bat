@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=inflection_jinja
+set SPHINXPROJ=jinja_inflection
 
 if "%1" == "" goto help
 

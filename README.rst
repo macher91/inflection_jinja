@@ -3,11 +3,11 @@ inflection-jinja
 ================
 
 
-.. image:: https://img.shields.io/pypi/v/inflection_jinja.svg
-        :target: https://pypi.python.org/pypi/inflection_jinja
+.. image:: https://img.shields.io/pypi/v/jinja_inflection.svg
+        :target: https://pypi.python.org/pypi/jinja_inflection
 
-.. image:: https://img.shields.io/travis/macher91/inflection_jinja.svg
-        :target: https://travis-ci.org/macher91/inflection_jinja
+.. image:: https://img.shields.io/travis/macher91/jinja_inflection.svg
+        :target: https://travis-ci.org/macher91/jinja_inflection
 
 .. image:: https://readthedocs.org/projects/inflection-jinja/badge/?version=latest
         :target: https://inflection-jinja.readthedocs.io/en/latest/?badge=latest
@@ -16,7 +16,7 @@ inflection-jinja
 
 
 
-Jinja extension wrapping infection package.
+Jinja extension wrapping inflection package.
 
 
 * Free software: BSD license

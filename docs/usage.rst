@@ -4,4 +4,4 @@ Usage
 
 To use inflection-jinja in a project::
 
-    import inflection_jinja
+    import jinja_inflection
