@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'jinja2==2.10',
+    'jinja2==2.11.3',
     'inflection==0.3.1'
 ]
 
